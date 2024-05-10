@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    /* background-color:rgba(221, 179, 101, 0.753); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    border-bottom: 0.001rem solid wheat;
+    padding: 10px;
+    z-index: 99;
+}
+
+nav img {
+    height: 10vh;
+    width: 5%;
+    padding: 10px 10px;
+    object-fit: cover;
+}
+
+nav .item {
+    display: flex;
+    gap: 10px;
+}
+
+nav .help {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav .help button {
+    height: 30px;
+    width: 50px;
+    color: black;
+    background-color: wheat;
+    border: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: monospace;
+
+}
+
+nav .help a h3 {
+    position: relative;
+    top: 5px;
+}
+
+section {
+    height: 105vh;
+    width: 100%;
+    /* background-color: rgb(27, 108, 179);     */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+section .text {
+    width: 95%;
+    height: 70%;
+
+
+}
+
+section .text h1 {
+    font-size: 15vh;
+    padding-left: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+section #imageone {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20%;
+    z-index: -1;
+}
+
+/* section .hover:hover{
+    height: 117vh;
+    width: 100%;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    transition: width 2s, height 4s;
+    position: relative;
+    left: 100px;
+    top: 50px;
+} */
+footer {
+    height: 100vh;
+    background-color: rgb(216, 170, 109);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .box {
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 50px;
+
+    background-color: wheat;
+}
